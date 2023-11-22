@@ -3,6 +3,8 @@ FROM node:alpine as build
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
+COPY . ./
+RUN npm run build
 
 #2 - Servir l'application avec Nginx
 FROM nginx:alpine
