@@ -1,0 +1,124 @@
+.buildingBox {
+    height: 100vh;
+    width: 100vw;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: url("../../public/background.png") #030441b3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.contentBox {
+    height: 100%;
+    width: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.topBox {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.topBox div {
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+.topBox p {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.midBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.midBox p {
+    letter-spacing: 5px;
+    font-size: 55px;
+    text-align: center;
+}
+
+.botBox {
+    width: 100%;
+    height: auto;
+}
+
+.botBox p {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.progressBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.emptyBar {
+    width: 50%;
+    height: 10px;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(59, 59, 59);
+}
+
+.fullBar {
+    width: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.socialLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.socialLink a {
+    color: white;
+}
+
+.socialLink a:hover {
+    color: #595959;
+}
