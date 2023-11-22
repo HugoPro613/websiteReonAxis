@@ -1,5 +1,5 @@
 #1 - Construire l'application React
-FROM node:18.16.0
+FROM node:18.16.0 as build
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
