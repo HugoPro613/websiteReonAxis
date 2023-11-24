@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/BuildingPage.css';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-import TwitterIcon from '@mui/icons-material/Twitter';
 
 function BuildingPage() {
 
@@ -61,12 +57,11 @@ function BuildingPage() {
                             </div>
                         </div>
                     </div>
-                    <div className='socialLink'>
-                        <a href='https://google.com'><FacebookIcon fontSize="large"/></a>
-                        <a href='https://google.com'><InstagramIcon fontSize="large"/></a>
-                        <a href='https://google.com'><TwitterIcon fontSize="large"/></a>
-                        <a href='https://google.com'><LinkedInIcon fontSize="large"/></a>
-                        <a href='https://google.com'><EmailIcon fontSize="large"/></a>
+                    <div className='contact'>
+                        <EmailIcon fontSize="large" />
+                        <p>Contact : 
+                            <a href="mailto:contact@reonAxis.fr">contact@reonAxis.fr</a>
+                        </p>
                     </div>
                 </div>
 
