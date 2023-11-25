@@ -11,11 +11,11 @@ FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 
 #3 - Copy config Nginx
-COPY ./etc/nginx/nginx.conf /etc/nginx/nginx.conf
+COPY ./config/nginx.conf /etc/nginx/nginx.conf
 
 #4 - Copie des certificats SSL
-COPY ./etc/letsencrypt/live/reonaxis.fr/fullchain.pem /etc/letsencrypt/live/reonaxis.fr/fullchain.pem
-COPY ./etc/letsencrypt/live/reonaxis.fr/privkey.pem /etc/letsencrypt/live/reonaxis.fr/privkey.pem
+COPY ./config/fullchain.pem /etc/letsencrypt/live/reonaxis.fr/fullchain.pem
+COPY ./config/privkey.pem /etc/letsencrypt/live/reonaxis.fr/privkey.pem
 
 EXPOSE 443
 CMD ["nginx", "-g", "daemon off;"]
