@@ -14,8 +14,8 @@ COPY --from=build /app/build /usr/share/nginx/html
 COPY ./config/nginx.conf /etc/nginx/nginx.conf
 
 #4 - Copie des certificats SSL
-COPY ./config/fullchain.pem /etc/letsencrypt/live/reonaxis.fr/fullchain.pem
-COPY ./config/privkey.pem /etc/letsencrypt/live/reonaxis.fr/privkey.pem
+COPY ./config/fullchain.pem /etc/ssl/fullchain.pem
+COPY ./config/privkey.pem /etc/ssl/privkey.pem
 
 EXPOSE 443
 CMD ["nginx", "-g", "daemon off;"]
