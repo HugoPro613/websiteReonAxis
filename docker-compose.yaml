@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  bot:
+  website:
     build:
       context: . 
       dockerfile: Dockerfile
