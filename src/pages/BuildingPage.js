@@ -7,7 +7,6 @@ function BuildingPage() {
     const actualProg = 40;
     const [loadingText, setLoadingText] = useState('.');
     const [percentProg, setPercentProg] = useState(0);
-    const [windowHeight, setWindowHeight] = useState(window.innerHeight);
 
     useEffect(() => {
         const increaseProgress = () => {
@@ -35,19 +34,9 @@ function BuildingPage() {
         return () => clearInterval(interval);
     }, [])
 
-    useEffect(() => {
-        const handleResize = () => setWindowHeight(window.innerHeight);
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
-    const divStyle = {
-        height: `${windowHeight}%`,
-    };
-
     return (
-        <div className='buildingBox' style={divStyle}>
-            <div className='background'></div>
+        <div className='buildingBox'>
+            <div className='background'/>
             <div className='contentBox'>
                 <div className='topBox'>
                     <div />

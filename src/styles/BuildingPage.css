@@ -1,14 +1,15 @@
 .buildingBox {
     width: 100vw;
+    height: 100vh;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.90);
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .background {
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
+    height: 100%;
+    width: 100%;
+    position: fixed;
     top: 0;
     background: url("../../public/background.png") #030441b3;
     background-size: cover;
@@ -124,7 +125,7 @@
     bottom: 15px;
 }
 
-.contact p{
+.contact p {
     margin: 0;
     padding: 0;
     letter-spacing: 1px;
@@ -132,39 +133,46 @@
     font-size: 15px;
 }
 
-.contact a{
+.contact a {
     margin-left: 5px;
     color: white;
 }
 
-.contact a:hover{
+.contact a:hover {
     color: rgb(59, 59, 59);
 }
 
-@media (max-width: 768px) or (max-height: 580px) {
-    .topBox{
-        margin-top: 10px;
-        gap: 10px
+@media (max-width: 1280px) {
+    .buildingBox {
+        width: 100vw;
+        height: 110vh;
     }
 
-    .topBox p {
-        font-size: 14px;
-        font-weight: 900;
-        letter-spacing: 2px;
-    }
+    @media (max-width: 768px) or (max-height: 580px) {
+        .topBox {
+            margin-top: 10px;
+            gap: 10px
+        }
 
-    .midBox p {
-        letter-spacing: 3px;
-        font-size: 35px;
-        text-align: center;
-    }
+        .topBox p {
+            font-size: 14px;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
 
-    .botBox p {
-        font-size: 12px;
-        font-weight: 900;
-    }
+        .midBox p {
+            letter-spacing: 3px;
+            font-size: 35px;
+            text-align: center;
+        }
 
-    .emptyBar {
-        height: 7px;
+        .botBox p {
+            font-size: 12px;
+            font-weight: 900;
+        }
+
+        .emptyBar {
+            height: 7px;
+        }
     }
 }
