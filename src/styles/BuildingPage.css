@@ -142,14 +142,34 @@
 }
 
 @media (max-width: 1280px) {
-    .buildingBox {
-        width: 100vw;
-        height: 102vh;
+
+    @media (orientation: portrait) {
+        .buildingBox {
+            width: 100vw;
+            height: 102vh;
+        }
+
+        .background {
+            width: 100vw;
+            height: 102vh;
+        }
+
+        .contact {
+            position: fixed;
+            bottom: 5px;
+        }
     }
 
-    .background {
-        width: 100vw;
-        height: 102vh;
+    @media (orientation: landscape) {
+        .buildingBox {
+            width: 100vw;
+            height: 120vh;
+        }
+
+        .background {
+            width: 100vw;
+            height: 120vh;
+        }
     }
 
     @media (max-width: 768px) or (max-height: 580px) {
@@ -177,18 +197,6 @@
 
         .emptyBar {
             height: 7px;
-        }
-    }
-
-    @media (orientation: landscape) {
-        .buildingBox {
-            width: 100vw;
-            height: 120vh;
-        }
-
-        .background {
-            width: 100vw;
-            height: 120vh;
         }
     }
 }
