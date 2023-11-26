@@ -145,7 +145,12 @@
 @media (max-width: 1280px) {
     .buildingBox {
         width: 100vw;
-        height: 110vh;
+        height: 105vh;
+    }
+
+    .background {
+        width: 100vw;
+        height: 105vh;
     }
 
     @media (max-width: 768px) or (max-height: 580px) {
