@@ -72,7 +72,7 @@
 
 .botBox {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .botBox p {
@@ -116,13 +116,12 @@
 
 .contact {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    position: absolute;
     gap: 15px;
-    bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .contact p {
@@ -145,12 +144,12 @@
 @media (max-width: 1280px) {
     .buildingBox {
         width: 100vw;
-        height: 105vh;
+        height: 102vh;
     }
 
     .background {
         width: 100vw;
-        height: 105vh;
+        height: 102vh;
     }
 
     @media (max-width: 768px) or (max-height: 580px) {
@@ -178,6 +177,18 @@
 
         .emptyBar {
             height: 7px;
+        }
+    }
+
+    @media (orientation: landscape) {
+        .buildingBox {
+            width: 100vw;
+            height: 120vh;
+        }
+
+        .background {
+            width: 100vw;
+            height: 120vh;
         }
     }
 }
