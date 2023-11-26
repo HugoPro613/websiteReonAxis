@@ -42,7 +42,7 @@ function BuildingPage() {
     }, []);
 
     const divStyle = {
-        height: `${windowHeight}px`,
+        height: `${windowHeight}%`,
     };
 
     return (
