@@ -1,6 +1,6 @@
 .buildingBox {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.90);
     font-family: Tahoma, Geneva, Verdana, sans-serif;
