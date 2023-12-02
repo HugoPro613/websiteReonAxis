@@ -4,7 +4,7 @@ import MainPage from './pages/MainPage';
 
 function App() {
 
-  const underConstruction = true;
+  const underConstruction = false;
 
   return (
     <div className="App">
