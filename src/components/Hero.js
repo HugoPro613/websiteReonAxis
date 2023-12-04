@@ -7,17 +7,14 @@ function Hero() {
         <div className='heroBox'>
             <div className='heroBoxTop'>
                 <div className='heroTitle'>
-                    <h1>Passer au niveau supérieur grâce à la location.</h1>
-                    <h2>La location au meilleur prix pour votre matériel spécialisé dans la modélisation/création 3D avec assurances et assistance incluses.</h2>
+                    <h1>Passer au niveau supérieur grâce à la location</h1>
+                    <p>La location au meilleur prix pour votre matériel spécialisé dans la modélisation/création 3D avec assurances et assistance incluses.</p>
+                    <a className='ctaBtn' href='https://reonAxis.fr'>Notre Catalogue</a>
                 </div>
 
                 <div className='heroImg'>
                     <Parallax  className='parallax' bgImage='/heroImg.jpg' strength={100}></Parallax>
                 </div>
-            </div>
-            <img className='transitionTop' src='/patternBot.png' alt='transition' />
-            <div className='heroBoxBot'>
-
             </div>
         </div>
     )

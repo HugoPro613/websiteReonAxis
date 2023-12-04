@@ -7,7 +7,7 @@ function Header() {
 
     return (
         <div className='HeaderBox'>
-            <img src="/blackNoBg.png" width="300px" className='logo' alt='logo' />
+            <img src="/primaryNoBg.png" width="300px" className='headerLogo' alt='logo' />
             <div className='navLinkBox'>
                 <div className={active === 0 ? 'link active' : 'link normal'}>
                     <a href='#' onClick={() => setActive(0)}>Accueil</a>
@@ -25,9 +25,10 @@ function Header() {
                     <a href='#' onClick={() => setActive(3)}>Contact</a>
                     <div className='underLine'></div>
                 </div>
-                <div className="link btn">
-                    <a href='https://reonAxis.fr'>Se connecter</a>
-                </div>
+                <a className="btn" href='https://reonAxis.fr'>
+                    <div className='btnHover'>Se connecter</div>
+                    <div className='btnNormal'>Se connecter</div>
+                </a>
             </div>
         </div>
     );

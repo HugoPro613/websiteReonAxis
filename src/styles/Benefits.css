@@ -1,0 +1,16 @@
+.benefitsBox {
+    width: 70%;
+    height: 1000px;
+    margin-top: 150px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.benefitsBox h1 {
+    font-size: 2.75vw;
+    line-height: 1.2em;
+}
+
+.benefitsBox p {
+    text-align: justify;
+}

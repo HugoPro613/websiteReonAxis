@@ -1,3 +1,41 @@
 .App {
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Mint Grotesk Display",sans-serif;
+  color: #3a3a3a;
+}
+
+p {
+  font-family: Roboto Mono,monospace;
+  font-size: 1rem;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+.ctaBtn {
+  font-family: Roboto Mono, monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: 3px solid #343470;
+  color: #343470;
+  transition: all 0.2s ease-in-out;
+}
+
+.ctaBtn:hover {
+  font-family: Roboto Mono, monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: 3px solid #343470;
+  color: #ffffff;
+  background-color: #343470;
+}
