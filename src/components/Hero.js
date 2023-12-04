@@ -11,9 +11,8 @@ function Hero() {
                     <p>La location au meilleur prix pour votre matériel spécialisé dans la modélisation/création 3D avec assurances et assistance incluses.</p>
                     <a className='ctaBtn' href='https://reonAxis.fr'>Notre Catalogue</a>
                 </div>
-
                 <div className='heroImg'>
-                    <Parallax  className='parallax' bgImage='/heroImg.jpg' strength={100}></Parallax>
+                    <Parallax className='parallax' bgImage='/heroImg.jpg' strength={100}></Parallax>
                 </div>
             </div>
         </div>

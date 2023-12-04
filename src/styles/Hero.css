@@ -49,33 +49,3 @@
     height: 100%;
     border-radius: 50px;
 }
-
-
-.heroBackground {
-    height: 800px;
-    width: 90%;
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    background: url("../../public/imgHero.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: scaleX(-1);
-    background-blend-mode: h;
-    z-index: 1;
-    border-radius: 30px;
-    box-shadow: -5px -5px 20px 0px #000000b2;
-}
-
-.transitionTop {
-    width: 100%;
-    height: 20%;
-    margin-bottom: -4px;
-
-}
-
-.heroBoxBot {
-    width: 100%;
-    height: 25%;
-    background-color: #343470;
-}
