@@ -1,0 +1,124 @@
+.contentBox {
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.separator {
+    width: 85%;
+    height: 1px;
+    background-color: #919191;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+/*Section 1 avantage*/
+.section1Box {
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.section1Box h1 {
+    font-size: 2.50vw;
+    line-height: 1.2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.section1Box h2 {
+    width: 100%;
+    overflow: hidden;
+    height: 9vh;
+}
+
+.section1Box p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.cardBox {
+    width: 95%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.cardBox .separator {
+    width: 1px;
+    height: 100%;
+    background-color: #919191;
+}
+
+.card {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.card img {
+    width: 5vw;
+    padding-bottom: 10%;
+}
+
+.card a {
+    color: #343470;
+    align-self: flex-end;
+    text-decoration: underline;
+    transition: all 0.1s ease-in-out;
+}
+
+.card a:hover {
+    color: #34347080;
+    cursor: pointer;
+}
+
+
+
+/*Section 2 catalogue*/
+.section2Box {
+    width: 100%;
+    height: 65vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: black;
+    margin-top: 75px;
+    box-shadow: 5px -1px 15px -2px #000000;
+}
+
+/*Section 3 reservation*/
+.section3Box {
+    width: 100%;
+    height: 35vh;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: black;
+    margin-bottom: 100px;
+    box-shadow: 5px -1px 15px -2px #000000
+    
+}
+
+/*Section 4 gestion*/
+.section4Box{
+    width: 100%;
+    height: 50vh;
+    margin-top: 75px;
+    
+}
