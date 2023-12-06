@@ -95,13 +95,103 @@
 /*Section 2 catalogue*/
 .section2Box {
     width: 100%;
-    height: 65vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     background-color: black;
-    margin-top: 75px;
+    margin-top: 25px;
     box-shadow: 5px -1px 15px -2px #000000;
 }
+
+.section2Box h1{
+    color: #FFFFFF;
+    align-self: flex-start;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-bottom: 7.5vh;
+}
+
+.catalogueBox {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+
+
+.catalogueBox .separator {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.catalogueItem {
+    width: 28%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 2%;
+    flex-wrap: nowrap;
+}
+
+.catalogueItem h3{
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.catalogueItem img {
+    width: 100%;
+    height: auto;
+}
+
+.catalogueItem .detail {
+    width: 100%;
+    height: 30vh;
+    font-weight: 600;
+}
+
+.catalogueItem .prix {
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    color: #343470;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.catalogueItem .carac {
+    width: 100%;
+    font-size: .95rem;
+    text-align: left;
+    padding: 10px;
+}
+
+.catalogueItem .desc {
+    width: 100%;
+    height: 20%;
+    font-size: .85rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.last {
+    color: #919191;
+    background-color: #000000;
+    border: 2px dotted #919191;
+}
+
 
 /*Section 3 reservation*/
 .section3Box {

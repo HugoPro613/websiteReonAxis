@@ -41,7 +41,52 @@ function ContentMain() {
             </div>
 
             <div id='catalogue' className='section2Box'>
-                <h1>Notre Catalogue</h1>
+                <h1>Notre Catalogue :</h1>
+                <div className='catalogueBox'>
+                    <div className='catalogueItem'>
+                        <img src='/hp-workstation-z4-g4.jpg' />
+                        <div className='separator' />
+                        <div className='detail'>
+                            <h3>HP Z4 G4 Tour</h3>
+                            <p className='prix'>120€  - 200€  TTC *</p>
+                            <ul className='carac'>
+                                <li><b>Système d'exploitation |</b> Windows 10 Pro</li>
+                                <li><b>Processeur |</b> Intel® Xeon® W 2245</li>
+                                <li><b>Mémoire |</b> 32 Go RAM</li>
+                                <li><b>Stockage |</b> 1 To Disque SSD</li>
+                                <li><b>Carte graphique |</b> NVIDIA® Quadro® RTX™ A2000 (6 Go)</li>
+                            </ul>
+                        </div>
+                        <a href='#'>En savoir plus</a>
+                    </div>
+                    <div className='catalogueItem'>
+                        <img src='/hp-workstation-z4-g4.jpg' />
+                        <div className='separator' />
+                        <div>
+                            <h3>HP Zbook Power G10 15,6"</h3>
+                            <p>Description du produit</p>
+                        </div>
+                    </div>
+                    <div className='catalogueItem'>
+                        <img src='/hp-workstation-z4-g4.jpg' />
+                        <div className='separator' />
+                        <div>
+                            <h3>Écran HP Z24q G3 QHD</h3>
+                            <p>Description du produit</p>
+                        </div>
+                    </div>
+                    <div className='catalogueItem'>
+                        <img src='/hp-workstation-z4-g4.jpg' />
+                        <div className='separator' />
+                        <div>
+                            <h3>Écran HP Z27u G3 QHD</h3>
+                            <p>Description du produit</p>
+                        </div>
+                    </div>
+                    <div className='catalogueItem last'>
+                        <p>Réservez maintenant(mettre cta)</p>
+                    </div>
+                </div>
                 <p>mettre les images des produit avec leur nom sur image et quand on click/hover on voit detail avec la fourchette de prix qui dépends de la durée de loc(mettre une note pour ça)</p>
                 <p>mettre un call action qui ammène à la page de réservation</p>
             </div>
