@@ -14,7 +14,7 @@ function Header() {
                     <div className='underLine'></div>
                 </div>
                 <div className={active === 1 ? 'link active' : 'link normal'}>
-                    <a href='#' onClick={() => setActive(1)}>Notre Catalogue</a>
+                    <a href='#' onClick={() => setActive(1)}>Réservation</a>
                     <div className='underLine'></div>
                 </div>
                 <div className={active === 2 ? 'link active' : 'link normal'}>

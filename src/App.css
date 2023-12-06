@@ -24,9 +24,10 @@ p {
   text-transform: uppercase;
   padding: 15px 30px;
   border-radius: 50px;
-  border: 3px solid #343470;
-  color: #343470;
-  transition: all 0.2s ease-in-out;
+  border: 3px solid #FFFFFF;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in-out;
+  background-color: #343470;
 }
 
 .ctaBtn:hover {
@@ -36,6 +37,6 @@ p {
   padding: 15px 30px;
   border-radius: 50px;
   border: 3px solid #343470;
-  color: #ffffff;
-  background-color: #343470;
+  color: #343470;
+  background-color: #FFFFFF;
 }
